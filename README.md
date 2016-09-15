@@ -1,12 +1,24 @@
-# hexo-tag-snippets README
-
-
+# Hexo-Tag-Snippets README
 
 ## Features
 
 Provide tag snippets for Hexo in Markdown
 
+like 
+
+`hcb` will turn into 
+
+<pre>
+{% codeblock [title] [lang:language] [url] [link text] %}
+code snippet
+{% endcodeblock %}
+</pre>
+
+
 ## Using
 
-`{codej` will populate code block for javascript
+`hcbj`: code block for javascript
+
+`hquote`: Block Quote
+
 
