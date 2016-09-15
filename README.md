@@ -6,7 +6,7 @@ Provide tag snippets for Hexo in Markdown
 
 like 
 
-`hcb` will turn into 
+`-hcb` will turn into 
 
 <pre>
 {% codeblock [title] [lang:language] [url] [link text] %}
@@ -17,8 +17,8 @@ code snippet
 
 ## Using
 
-`hcbj`: code block for javascript
+`-hcbj`: code block for javascript
 
-`hquote`: Block Quote
+`-hquote`: Block Quote
 
 
