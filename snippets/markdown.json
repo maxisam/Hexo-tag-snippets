@@ -1,6 +1,6 @@
 {
     "Code Block - general": {
-        "prefix": "{cb",
+        "prefix": "hcb",
         "body": [
             "{% codeblock ${1:title} lang:${2:language}  %}",
             "$3",
@@ -8,7 +8,7 @@
         ]
     },
     "Code Block - Javascript": {
-        "prefix": "{cbj",
+        "prefix": "hcbj",
         "body": [
             "{% codeblock ${1:title} lang:JavaScript  %}",
             "$2",
@@ -16,7 +16,7 @@
         ]
     },
     "Block Quote": {
-        "prefix": "{quote",
+        "prefix": "hquote",
         "body": [
             "{% blockquote ${1:author} ${2:link} ${3:link_title} %}",
             "$4",
