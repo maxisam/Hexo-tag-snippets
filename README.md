@@ -21,4 +21,7 @@ code snippet
 
 `-hquote`: Block Quote
 
+## Source
+
+[Github](https://github.com/maxisam/Hexo-tag-snippets)
 
