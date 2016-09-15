@@ -1,0 +1,21 @@
+{
+    "name": "hexo-tag-snippets",
+    "displayName": "Hexo tag snippets",
+    "description": "snippets for Hexo tag in Markdown",
+    "version": "0.0.1",
+    "publisher": "maxisam",
+    "engines": {
+        "vscode": "^1.4.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+      "snippets": [
+          {
+              "language": "markdown",
+              "path": "./snippets/markdown.json"
+          }
+      ]
+    }
+}
