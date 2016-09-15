@@ -2,7 +2,7 @@
     "name": "hexo-tag-snippets",
     "displayName": "Hexo tag snippets",
     "description": "snippets for Hexo tag in Markdown",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "publisher": "maxisam",
     "icon": "images/HexoSnippets.svg",
     "engines": {
@@ -18,5 +18,8 @@
               "path": "./snippets/markdown.json"
           }
       ]
+    },
+    "scripts": {
+        "vp": "vsce publish"
     }
 }
