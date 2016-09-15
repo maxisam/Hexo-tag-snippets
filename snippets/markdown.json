@@ -22,5 +22,49 @@
             "$4",
             "{% endblockquote %}"
         ]
+    },
+    "PUll Quote": {
+        "prefix": "hpullquote",
+        "body": [
+            "{% pullquote ${1:class} %}",
+            "$2",
+            "{% endpullquote %}"
+        ]
+    },
+    "jsfiddle": {
+        "prefix": "hjsfiddle",
+        "body": [
+            "{% jsfiddle ${1:shorttag} ${2:tabs} ${3:skin} ${4:width} ${5:height}  %}"
+        ]
+    },
+    "Gist": {
+        "prefix": "hgist",
+        "body": [
+            "{% gist  ${1:gist_id} ${2:filename} %}"
+        ]
+    },
+    "iframe": {
+        "prefix": "hiframe",
+        "body": [
+            "{% iframe ${1:url} ${2:width} ${3:height}  %}"
+        ]
+    },
+    "image": {
+        "prefix": "himage",
+        "body": [
+            "{% img ${1:class_names} ${2:path} ${3:width} ${4:height} ${5:title}  %}"
+        ]
+    },
+    "link": {
+        "prefix": "hlink",
+        "body": [
+            "{% link ${1:text} ${2:url} ${3:external} ${4:title}  %}"
+        ]
+    },
+     "youtube": {
+        "prefix": "hyoutube",
+        "body": [
+            "{% youtube ${1:video_id} %}"
+        ]
     }
 }
