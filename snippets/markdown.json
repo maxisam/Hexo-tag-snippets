@@ -61,10 +61,34 @@
             "{% link ${1:text} ${2:url} ${3:external} ${4:title}  %}"
         ]
     },
-     "youtube": {
+    "youtube": {
         "prefix": "-hyoutube",
         "body": [
             "{% youtube ${1:video_id} %}"
+        ]
+    },
+    "posts": {
+        "prefix": "-hpost",
+        "body": [
+            "{% post_path slug ${1:title} %}"
+        ]
+    },
+    "assets-image": {
+        "prefix": "-himgasset",
+        "body": [
+            "{% asset_img slug ${1:title} %}"
+        ]
+    },
+    "assets-path": {
+        "prefix": "-hpathasset",
+        "body": [
+            "{% asset_path slug  %}"
+        ]
+    },
+    "assets-link": {
+        "prefix": "-hlinkasset",
+        "body": [
+            "{% asset_link slug ${1:title} %}"
         ]
     }
 }
