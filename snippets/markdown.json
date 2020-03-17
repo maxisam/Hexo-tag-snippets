@@ -68,9 +68,9 @@
         ]
     },
     "posts": {
-        "prefix": "-hpost",
+        "prefix": "-hpostlink",
         "body": [
-            "{% post_path slug ${1:title} %}"
+            "{% post_link ${1:title} %}"
         ]
     },
     "assets-image": {
