@@ -4,16 +4,15 @@
 
 Provide tag snippets for Hexo in Markdown
 
-like 
+like
 
-`-hcb` will turn into 
+`-hcb` will turn into
 
 <pre>
 {% codeblock [title] [lang:language] [url] [link text] %}
 code snippet
 {% endcodeblock %}
 </pre>
-
 
 ## Using
 
@@ -24,4 +23,3 @@ code snippet
 ## Source
 
 [Github](https://github.com/maxisam/Hexo-tag-snippets)
-
